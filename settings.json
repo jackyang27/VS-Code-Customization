@@ -1,0 +1,25 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.fontSize": 13.5,
+    "editor.scrollBeyondLastLine": false,
+    "workbench.tree.indent": 10,
+    "workbench.colorCustomizations": {
+        // 1º column - Files, Search, Git, ..., icons
+        "activityBar.background": "#000", // column background
+        "activityBar.border": "#ffffff59", // column border
+        "activityBar.foreground": "#ffe600", // active icon
+        "activityBar.inactiveForeground": "#ff660098", // inactive icon
+        
+        // 2º column - Files, search, ...
+        "sideBar.background": "#000", // column background
+        "sideBar.border": "#ffffff59", // column border
+        
+        // 3º column - Editor
+        "editor.background": "#000",  // column background
+
+        // Debug, Output and Terminal - below editor
+        "panel.background": "#000",
+        "panelTitle.activeBorder": "#fbff00", 
+        "panelTitle.activeForeground": "#ffff",
+    },
+}
