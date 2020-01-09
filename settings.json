@@ -1,25 +1,43 @@
 {
-    "editor.cursorBlinking": "smooth",
-    "editor.fontSize": 13.5,
-    "editor.scrollBeyondLastLine": false,
-    "workbench.tree.indent": 10,
     "workbench.colorCustomizations": {
         // 1º column - Files, Search, Git, ..., icons
-        "activityBar.background": "#000", // column background
+        "activityBar.background": "#0e0e0e", // column background
         "activityBar.border": "#ffffff59", // column border
-        "activityBar.foreground": "#ffe600", // active icon
-        "activityBar.inactiveForeground": "#ff660098", // inactive icon
-        
+        "activityBar.foreground": "#ffe600", // active icon - color
+        "activityBar.activeBorder": "#ffe600", // active icon - border color 
+        "activityBar.activeBackground": "#b1b1b160", // active icon - background
+        "activityBar.inactiveForeground": "#b66f04", // inactive icon color
         // 2º column - Files, search, ...
-        "sideBar.background": "#000", // column background
+        "sideBar.background": "#0e0e0e", // column background
         "sideBar.border": "#ffffff59", // column border
-        
         // 3º column - Editor
-        "editor.background": "#000",  // column background
-
+        "editor.background": "#0e0e0e", // column background
         // Debug, Output and Terminal - below editor
-        "panel.background": "#000",
-        "panelTitle.activeBorder": "#fbff00", 
+        "panel.background": "#0e0e0e",
+        "panelTitle.activeBorder": "#fbff00",
         "panelTitle.activeForeground": "#ffff",
     },
+    // change editor font
+    "editor.fontFamily": "Fira Code", //options => ["Consolas, 'Courier New', monospace"], ["Fira Code"], ["Verdana"]
+    "editor.fontLigatures": true,
+    // disable editor minimap
+    "editor.minimap.enabled": false,
+    // change cursor blinking
+    "editor.cursorBlinking": "smooth",
+    // change editor font size
+    "editor.fontSize": 13.25,
+    // disable scroll beyond function
+    "editor.scrollBeyondLastLine": false,
+
+    // itens space in files tab (2º Column)
+    "workbench.tree.indent": 15,
+
+    // custom terminal
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.rendererType": "experimentalWebgl",
+
+    // actual theme
+    "workbench.colorTheme": "Monokai Dimmed",
 }
