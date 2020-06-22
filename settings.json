@@ -1,19 +1,19 @@
 {
     "workbench.colorCustomizations": {
         // 1º column - Files, Search, Git, ..., icons
-        "activityBar.background": "#0e0e0e", // column background
+        "activityBar.background": "#252525", // column background
         "activityBar.border": "#ffffff59", // column border
-        "activityBar.foreground": "#ffe600", // active icon - color
-        "activityBar.activeBorder": "#ffe600", // active icon - border color 
-        "activityBar.activeBackground": "#b1b1b160", // active icon - background
-        "activityBar.inactiveForeground": "#b66f04", // inactive icon color
+        "activityBar.foreground": "#fff", // active icon - color
+        "activityBar.activeBorder": "#ff5100", // active icon - border color 
+        "activityBar.activeBackground": "#ff5100", // active icon - background
+        "activityBar.inactiveForeground": "#ff5100", // inactive icon color
         // 2º column - Files, search, ...
-        "sideBar.background": "#0e0e0e", // column background
+        "sideBar.background": "#252525", // column background
         "sideBar.border": "#ffffff59", // column border
         // 3º column - Editor
-        "editor.background": "#0e0e0e", // column background
+        "editor.background": "#252525", // column background
         // Debug, Output and Terminal - below editor
-        "panel.background": "#0e0e0e",
+        "panel.background": "#252525",
         "panelTitle.activeBorder": "#fbff00",
         "panelTitle.activeForeground": "#ffff",
     },
@@ -38,6 +38,13 @@
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.rendererType": "experimentalWebgl",
 
-    // actual theme
-    "workbench.colorTheme": "Monokai Dimmed",
+    // When comparing two files in git diff, ignores white spaces and tab's
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    // Define sidebar location (menu of files, search, terminal) - default in left    
+    "workbench.sideBar.location": "right",
+
+    // Define color and icon themes
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
 }
